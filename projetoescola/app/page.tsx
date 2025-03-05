@@ -1,8 +1,9 @@
 import React from 'react'; 
 import Cabecalho from '@/components/Cabecalho'; 
 import Footer from '@/components/Footer'; 
-import ListaDeAlunos from "@/components/listaDeAlunos";
-import { listaData} from "@/data/dataAlunos";
+import '../app/global.css';
+import '@/components/Aluno';
+import Aluno from '@/components/Aluno';
  
 
 function Home() { 
@@ -12,11 +13,7 @@ function Home() {
     <> 
       <Cabecalho /> 
 
-      <main> 
-      <h1>MERCADO</h1>
-            <p>Lista de Itens Gerais</p>
-            <ListaDeAlunos itens={listaData} />
-      </main> 
+      <Aluno/>
 
       <Footer /> 
     </> 
