@@ -12,9 +12,9 @@ function Home() {
 
     <> 
       <Cabecalho /> 
-
-      <Aluno/>
-
+      <main>
+        <Aluno/>
+      </main>
       <Footer /> 
     </> 
 

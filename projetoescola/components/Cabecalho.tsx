@@ -1,14 +1,16 @@
+import styles from'@/components/Cabecalho.module.css';
+
 function Cabecalho() { 
 
      return ( 
     
         <> 
     
-             <header> 
+             <header className={styles.cabecalho}> 
     
-                <h1>Escola Futuro Agora</h1> 
+                <h1>Escola Estelar</h1> 
     
-                <p>Venha matricular seu filho na melhor escola do Brasil!</p> 
+                <p>Venha matricular seu filho na melhor escola da Galáxia!</p> 
 
              </header> 
     

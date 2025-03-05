@@ -1,3 +1,5 @@
+import styles from '@/components/Footer.module.css'
+
 function Footer() { 
 
     return ( 
@@ -6,7 +8,7 @@ function Footer() {
     
             <footer> 
      
-                 <p>Escola Future, todos os direitos reservados.</p> 
+                 <p className={styles.rodape}>Escola Estelar, todos os direitos reservados.</p> 
     
             </footer> 
     
