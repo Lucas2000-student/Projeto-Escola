@@ -6,9 +6,9 @@ function Cabecalho() {
     
              <header> 
     
-                <h1>Escola Future!</h1> 
+                <h1>Escola Futuro Agora</h1> 
     
-                <h2>Matricule seu filho na melhor escola do Brasil!</h2> 
+                <p>Venha matricular seu filho na melhor escola do Brasil!</p> 
 
              </header> 
     
